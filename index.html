@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pikadu</title>
+    <title>Pikadu | Главная</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -13,7 +13,7 @@
 
     <header class="header">
         <div class="header-wrapper">
-            <img src="./img/logo.svg" alt="logo: Pikadu">
+            <a href="./index.html"><img src="./img/logo.svg" alt="logo: Pikadu"></a>
             <nav class="header-nav">
                 <ul class="header-menu">
                     <li class="header-menu-item">
@@ -37,6 +37,11 @@
                 </button>
             </div>
             <!-- /.input-group -->
+            <a href="#" class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
         </div>
     </header>
 
@@ -200,7 +205,7 @@
                     </li>
                 </ul>
             </nav>
-            <a href="#" class="button button-new-post">
+            <a href="./new_post.html" class="button button-new-post">
                 <svg width="20" height="20" class="icon icon-fire">
                     <use xlink:href="./img/icons.svg#new_post"></use>
                 </svg>
@@ -218,12 +223,14 @@
                 <!-- /.card-body -->
             </div>
             <!-- /.card -->
-            <a href="#" class="promo"></a>
+            <a href="" class="promo"></a>
             <!-- /.sidebar-nav -->
         </aside>
         <!-- /.sidebar -->
     </div>
     <!-- /.content -->
+
+    <script src="./js/main.js"></script>
 
 </body>
 
